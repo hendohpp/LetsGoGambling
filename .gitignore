@@ -1,0 +1,37 @@
+# binaries and plugins
+*.exe
+*.exe~
+
+*.dll
+*.so
+*.dylib
+
+*.out
+*.bin
+*.elf
+
+*.test
+
+profile.cov
+coverage.*
+
+# build output
+/bin/
+/build/
+
+# go workspace and environment
+go.work
+go.work.sum
+.env
+
+# nvim
+*.swp
+*.swo
+*~
+*.un~
+tags
+.tags
+*.session
+.nvimrc
+.exrc
+.nvim.lua
